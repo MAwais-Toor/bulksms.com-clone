@@ -1,0 +1,30 @@
+.header{
+    background-color: #ff7900;
+}
+.hero-1{
+    background-color: #e9eff7;
+    height: 500px;
+    align-content: center;
+    justify-content: center;
+}
+.why-us{
+    background-color: #0275d8;
+}
+.join{
+    background-image: url(https://www.bulksms.com/images/call-to-action111.png);
+    background-color: #0275d8;
+    color: white;
+    height: 300px;
+    align-content: center;
+}
+.join button{
+    background-color: #ff7900;
+    color: #e9eff7;
+
+}
+.short_liks{
+    list-style: none;
+}
+.short_liks li{
+padding-left: 20px;
+}
