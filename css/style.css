@@ -1,11 +1,12 @@
 .header{
     background-color: #ff7900;
+    align-content: center;
 }
 .hero-1{
     background-color: #e9eff7;
     height: 500px;
     align-content: center;
-    justify-content: center;
+    padding-left: 150px;
 }
 .why-us{
     background-color: #023f88;
@@ -36,4 +37,12 @@ ul li a{
     color: rgb(0, 85, 243);
     text-decoration: none;
     font-size: 18px;
+}
+.filter{
+    filter: grayscale(100%);
+  transition: .5s
+}
+.filter:hover{
+    filter: grayscale(0%);
+  transition: .5s
 }
