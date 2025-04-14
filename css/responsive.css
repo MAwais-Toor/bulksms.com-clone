@@ -1,0 +1,21 @@
+@media(min-width: 0px) and (max-width: 768px)
+{
+    .header_logo{
+        width: 220px;
+    }
+    .mbl_btn{
+        display: none;
+    }
+    .search_header{
+        display: none;
+    }
+    .country{
+        display: none;
+    }
+    .responsive-card{
+        width: 1%;
+    }
+    .mbl_link{
+        display: none;
+    }
+}

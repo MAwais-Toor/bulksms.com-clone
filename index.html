@@ -2,24 +2,22 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Bootstrap Style link -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <link rel="stylesheet" href="./css/style.css">
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/responsive.css" />
   <title>BulkSMS.com | SMS Gateway to 213 Countries | BulkSMS.com</title>
-  <link rel="icon" type="image/png" sizes="16x16" href="https://www.bulksms.com/images/icons/apple-icon-57x57.png">
-
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
-    integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
-
+  <link rel="icon" type="image/png" sizes="16x16" href="https://www.bulksms.com/images/icons/apple-icon-57x57.png" />
 </head>
 
 <body>
-
+  <!--Top Header -->
   <div class="container-fluid header">
-    <div class="row d-flex  w-60 m-auto">
-      <div class="col-1">
+    <div class="row d-flex w-60 m-auto">
+      <div class="col-1 country">
         <select name="" id="">
           <option value="">PK</option>
           <option value="">PK</option>
@@ -32,29 +30,29 @@
           <option value="">PK</option>
         </select>
       </div>
-      <div class="col-8 d-flex align-center">
-        <span><img src="./source/icons/phone.svg" width="15px" alt=""></span>
-        
-        <p class="text-light text-center">+44 203 633 4118 / +27 21 528 3420</p>
+      <div class="col-8 d-flex">
+        <span><img src="./source/icons/phone.svg" width="15px" alt="" /></span>
+
+        <p class="text-light call">+44 203 633 4118 / +27 21 528 3420</p>
       </div>
-      <div class="col-3">
+      <div class="col-3 search_header">
         <form action="">
-          <input type="search">
-          <span><img src="./source/icons/search.svg" width="15px" alt=""></span>
+          <input type="search" placeholder="Search site..." />
+          <span><img src="./source/icons/search.svg" width="15px" alt="" /></span>
         </form>
       </div>
     </div>
   </div>
-
+  <!-- main header -->
   <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary shadow">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="https://www.bulksms.com/images/bulksms-logo.png" width="300px"
-          alt=""></a>
+      <a class="navbar-brand" href="#"><img class="header_logo" src="https://www.bulksms.com/images/bulksms-logo.png"
+          width="300px" alt="" /></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <div class="collapse navbar-collapse main_header" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -63,7 +61,9 @@
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#">Action</a></li>
               <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </li>
             </ul>
           </li>
           <li class="nav-item dropdown">
@@ -73,7 +73,9 @@
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#">Action</a></li>
               <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </li>
             </ul>
           </li>
           <li class="nav-item">
@@ -86,7 +88,9 @@
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#">Action</a></li>
               <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </li>
             </ul>
           </li>
           <li class="nav-item">
@@ -96,259 +100,296 @@
             <a class="nav-link" href="#">Contact us</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle text-warning" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
               Login
             </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#">Action</a></li>
               <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </li>
             </ul>
           </li>
         </ul>
       </div>
-      <button class="btn btn-primary">Sign up Today</button>
+      <button class="btn btn-primary header_btn mbl_btn">
+        Sign up Today
+      </button>
     </div>
   </nav>
 
-  <div class="container-fluid hero-1">
-    <div class="row m-auto w-60 ">
-      <div class="col-4 align-center">
-        <h1 class="fw-bold secondary">Get Your Message Across</h1>
-        <p>A leading provider of business messaging solutions.</p>
-        <button class="btn btn-primary">Register Your Account Today</button>
-      </div>
-      <div class="col-8 justify-center ">
-        <img src="https://www.bulksms.com/images/get-your-message-across.svg" width="650px" alt="hero">
+  <!-- Section Start -->
+  <div class="container-fluid hero">
+    <div class="container">
+      <div class="row m-auto w-60">
+        <div class="col-lg-4 col-md-6 col-sm-12 welcome">
+          <h1>Get Your Message Across</h1>
+          <p>A leading provider of business messaging solutions.</p>
+          <button class="btn btn-primary">Register your account today</button>
+        </div>
+        <div class="col-lg-8 col-md-6 col-sm-12 justify-center">
+          <img class="img-fluid" src="https://www.bulksms.com/images/get-your-message-across.svg" width="650px"
+            alt="hero" />
+        </div>
       </div>
     </div>
   </div>
-  <br>
-  <br>
-  <div class="container px-4 text-center">
-    <h1>One Account,
-      Many Ways to Send</h1>
-    <br>
-    <div class="row gx-5 gap-5">
-      <div class="col border rounded-2 shadow">
-        <div><img class="img-fluid " src="https://www.bulksms.com/images/bulksms-responsive-web-app.png?v=1" alt="">
-        </div>
-        <div class="h2">Send SMS From Web</div>
-        <p>Use our responsive web app to access your online account from any browser.</p>
-        <button class="btn btn-warning">Explore Soulation</button>
-        <br>
-        <br>
-      </div>
-      <div class="col border rounded-2 shadow">
-        <div><img class="img-fluid " src="https://www.bulksms.com/images/bulksms-sms-api.png?v=1" alt="">
-        </div>
-        <div class="h2">Use our SMS API</div>
-        <p>Use our responsive web app to access your online account from any browser.</p>
-        <button class="btn btn-warning">Explore Soulation</button>
-        <br>
-        <br>
-      </div>
-    </div>
 
-    <div class="row gx-5 gap-5 mt-5">
-      <div class="col border rounded-2 shadow">
-        <div><img class="img-fluid " src="https://www.bulksms.com/images/bulksms-text-messenger.png?v=1" alt="">
+  <!-- Section end -->
+  <!-- Section Start -->
+  <div class="container-fluid">
+    <h1 class="text-center account">
+      One Account, <br />
+      Many Ways to Send
+    </h1>
+    <div class="container">
+      <!-- Cards -->
+      <div class="row m-auto">
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <div class="card responsive-card text-center" style="width: 30rem">
+            <img class="card-img-top" src="https://www.bulksms.com/images/bulksms-responsive-web-app.png?v=1"
+              alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
         </div>
-        <div class="h2">Send SMS From Desktop</div>
-        <p>Use our responsive web app to access your online account from any browser.</p>
-        <button class="btn btn-warning">Explore Soulation</button>
-        <br>
-        <br>
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <div class="card responsive-card text-center" style="width: 30rem">
+            <img class="card-img-top" src="https://www.bulksms.com/images/bulksms-sms-api.png?v=1"
+              alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="col border rounded-2 shadow">
-        <div><img class="img-fluid " src="https://www.bulksms.com/images/bulksms-integration-gateway.png?v=1" alt="">
+
+      <br />
+      <!--  -->
+      <div class="row m-auto">
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <div class="card responsive-card text-center" style="width: 30rem">
+            <img class="card-img-top" src="https://www.bulksms.com/images/bulksms-text-messenger.png?v=1 "
+              alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
         </div>
-        <div class="h2">SMS Integration Gateway</div>
-        <p>Use our responsive web app to access your online account from any browser.</p>
-        <button class="btn btn-warning">Explore Soulation</button>
-        <br>
-        <br>
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <div class="card responsive-card text-center" style="width: 30rem">
+            <img class="card-img-top" src="https://www.bulksms.com/images/bulksms-integration-gateway.png?v=1"
+              alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <div class="para-btn text-center">
+        <h3 class="text-center">
+          Or are you looking to use the power of an Incoming Number?
+        </h3>
+        <br />
+        <br />
+        <button class="btn btn-warning m-auto btn-center">
+          Try blukSMS for Free
+        </button>
       </div>
     </div>
-    <br>
-    <br>
-    <h4>Or are you looking to use the power of an Incoming Number?</h4>
-    <br>
-    <button class="btn btn-warning">Try BulkSMS For Free</button>
   </div>
-  <br>
-  <br>
-
+  <br />
+  <br />
+  <!-- Section end -->
+  <!-- Section Start -->
   <div class="container-fluid why-us">
-    <div class="container text-center text-light ">
-      <br>
-      <h3>Why choose BulkSMS.com?</h3>
+    <div class="container">
+      <h2 class="text-center text-light">Why choose BulkSMS.com?</h2>
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+          <div class="img"><img class="img-fluid" width="200px" src="https://www.bulksms.com/images/support-v2.png"
+              alt="" /></div>
+          <h2>Lorem ipsum dolor sit.</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+          <div class="img"><img class="img-fluid" width="200px" src="https://www.bulksms.com/images/delivery-v2.png"
+              alt="" /></div>
+          <h2>Lorem ipsum dolor sit.</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+          <div class="img"><img class="img-fluid" width="200px" src="https://www.bulksms.com/images/transparency-v2.png"
+              alt="" /></div>
+          <h2>Lorem ipsum dolor sit.</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+          <div class="img"><img class="img-fluid" width="200px" src="https://www.bulksms.com/images/easy-v2.png"
+              alt="" /></div>
+          <h2>Lorem ipsum dolor sit.</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <!-- Section end -->
+  <!-- Section Start -->
+
+  <div class="container-fluid">
+    <div class="container border w-60 text-center">
+      <h2>We Connect to Over 800 Networks, Globally.</h2>
       <div class="row">
         <div class="col-3">
-          <div>
-            <img class="img-fluid " src="https://www.bulksms.com/images/support-v2.png" width="200px" alt="">
-          </div>
-          <div class="h4">Dedicated Support</div>
-          <p>Our Support Team is dedicated to helping you get your SMS messages across.</p>
+          <span class="shadow"><img class="img-fluid" src="" alt="" /></span>Pakistan
         </div>
         <div class="col-3">
-          <div><img class="img-fluid " src="https://www.bulksms.com/images/delivery-v2.png" width="200px" alt=""></div>
-          <div class="h4">Reliable Delivery</div>
-          <p>We send your messages through the most reliable routes on offer.</p>
+          <span class="shadow"><img class="img-fluid" src="" alt="" /></span>Pakistan
         </div>
-        <div class="col-3 w-1">
-          <div><img class="img-fluid " src="https://www.bulksms.com/images/transparency-v2.png" width="200px" alt="">
+        <div class="col-3">
+          <span class="shadow"><img class="img-fluid" src="" alt="" /></span>Pakistan
+        </div>
+        <div class="col-3">
+          <span class="shadow"><img class="img-fluid" src="" alt="" /></span>Pakistan
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3">
+          <span class="shadow"><img class="img-fluid" src="" alt="" /></span>Pakistan
+        </div>
+        <div class="col-3">
+          <span class="shadow"><img class="img-fluid" src="" alt="" /></span>Pakistan
+        </div>
+        <div class="col-3">
+          <span class="shadow"><img class="img-fluid" src="" alt="" /></span>Pakistan
+        </div>
+        <div class="col-3">
+          <span class="shadow"><img class="img-fluid" src="" alt="" /></span>Pakistan
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3">
+          <span class="shadow"><img class="img-fluid" src="" alt="" /></span>Pakistan
+        </div>
+        <div class="col-3">
+          <span class="shadow"><img class="img-fluid" src="" alt="" /></span>Pakistan
+        </div>
+        <div class="col-3">
+          <span class="shadow"><img class="img-fluid" src="" alt="" /></span>Pakistan
+        </div>
+        <div class="col-3">
+          <span class="shadow"><img class="img-fluid" src="" alt="" /></span>Pakistan
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3">
+          <span class="shadow"><img class="img-fluid" src="" alt="" /></span>Pakistan
+        </div>
+        <div class="col-3">
+          <span class="shadow"><img class="img-fluid" src="" alt="" /></span>Pakistan
+        </div>
+        <div class="col-3">
+          <span class="shadow"><img class="img-fluid" src="" alt="" /></span>Pakistan
+        </div>
+        <div class="col-3">
+          <span class="shadow"><img class="img-fluid" src="" alt="" /></span>Pakistan
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="btns bg-body-tertiary w-100">
+        <button class="btn btn-warning">View all our network</button>
+        <button class="btn btn-warning">View all our network</button>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <!-- Section end -->
+  <!-- Section Start -->
+  <div class="container-fluid">
+    <div class="container text-center">
+      <h2>What Our Customers Have to Say</h2>
+      <p>Have a look at some of our customers success stories:</p>
+      <div class="row">
+        <div class="col-lg-4 col-md-12 col-sm-12">
+          <div class="row">
+            <div class="col-5">
+              <div class="up"><img class="img-fluid" src="https://www.bulksms.com/images/G2-Easiest-Setup-2024.png"
+                  alt=""></div>
+              <div class="down"><img class="img-fluid" src="https://www.bulksms.com/images/G2-Leader-2024.png" alt="">
+              </div>
+            </div>
+            <div class="col-7 ">
+              <img class="img-fluid" src="./source/img3.png" alt="">
+              <br>
+              <br>
+              <button class="btn btn-warning text-center">Read our reviews on G2</button>
+            </div>
+
           </div>
-          <div class="h4">Clear Regulations</div>
-          <p>Easy access to information on industry best practices and regional regulations.</p>
         </div>
-        <div class="col-3 w-1">
-          <div><img class="img-fluid " src="https://www.bulksms.com/images/easy-v2.png" width="200px" alt=""></div>
-          <div class="h4">Easy Access </div>
-          <p>Access all our SMS Solutions with one account.</p>
+        <div class="col-lg-8 col-md-12 col-sm-12 justify-center">
+          <div class="row">
+            <div class="col-4"><img class="img-fluid filter"
+                src="https://www.bulksms.com/images/resources/case-study/home-fly-sa-fair.png" alt=""></div>
+            <div class="col-4"><img class="img-fluid filter"
+                src="https://www.bulksms.com/images/resources/case-study/home-cts-logo.png" alt=""></div>
+            <div class="col-4"><img class="img-fluid filter"
+                src="https://www.bulksms.com/images/resources/case-study/home-santa.png" alt=""></div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-4"><img class="img-fluid filter"
+                src="https://www.bulksms.com/images/resources/case-study/home-bee.png" alt="">
+            </div>
+            <div class="col-4"><img class="img-fluid filter"
+                src="https://www.bulksms.com/images/resources/case-study/home-sme.png" alt="">
+            </div>
+            <div class="col-4"><img class="img-fluid filter"
+                src="https://www.bulksms.com/images/resources/case-study/home-q8.png" alt="">
+            </div>
+          </div>
+          <br>
+          <button class="btn btn-warning text-light">See our case studies</button>
         </div>
       </div>
     </div>
   </div>
   <br>
   <br>
-
-  <!-- Country Grids -->
-
-  <div class="container justify-center ">
-    <div class="container-fluid border  justify-center">
-      <h1 class="text-center">We Connect to Over 800 Networks, Globally.</h1>
-      <br>
-      <br>
-      <div class="row">
-        <div class="col-3"> <span class="shadow"><img
-              src="https://cdn.britannica.com/27/4227-004-32423B42/Flag-South-Africa.jpg"
-              width="30px"
-              alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt-JS9JNpq-R38d9MFD2_Ugpdxsnd_lS6xTlGVFKp1tOWKe4oG10hKigRS9e3JP5CeR_8&usqp=CAU"
-              class="img-fluid"></span>South Africa</div>
-        <div class="col-3"> <span class="shadow"><img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_West_Germany%3B_Flag_of_Germany_%281990%E2%80%931996%29.svg/250px-Flag_of_West_Germany%3B_Flag_of_Germany_%281990%E2%80%931996%29.svg.png"
-              width="30px"
-              alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt-JS9JNpq-R38d9MFD2_Ugpdxsnd_lS6xTlGVFKp1tOWKe4oG10hKigRS9e3JP5CeR_8&usqp=CAU"
-              class="img-fluid"></span>Germany</div>
-        <div class="col-3"> <span class="shadow"><img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/1200px-Flag_of_the_United_Kingdom_%281-2%29.svg.png"
-              width="30px"
-              alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt-JS9JNpq-R38d9MFD2_Ugpdxsnd_lS6xTlGVFKp1tOWKe4oG10hKigRS9e3JP5CeR_8&usqp=CAU"
-              class="img-fluid"></span>United Kingdom
-            </div>
-        <div class="col-3"> <span class="shadow"><img
-              src="https://cdn.britannica.com/79/4479-050-6EF87027/flag-Stars-and-Stripes-May-1-1795.jpg"
-              width="30px"
-              alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt-JS9JNpq-R38d9MFD2_Ugpdxsnd_lS6xTlGVFKp1tOWKe4oG10hKigRS9e3JP5CeR_8&usqp=CAU"
-              class="img-fluid"></span>USA</div>
-      </div>
-      <br>
-      <br>
-      <div class="row">
-        <div class="col-3"> <span class="shadow"><img
-              src="https://upload.wikimedia.org/wikipedia/commons/4/48/Flag_of_Singapore.svg"
-              width="30px"
-              alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt-JS9JNpq-R38d9MFD2_Ugpdxsnd_lS6xTlGVFKp1tOWKe4oG10hKigRS9e3JP5CeR_8&usqp=CAU"
-              class="img-fluid"></span>Singapore
-            </div>
-        <div class="col-3"> <span class="shadow"><img
-              src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_Finland.svg"
-              width="30px"
-              alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt-JS9JNpq-R38d9MFD2_Ugpdxsnd_lS6xTlGVFKp1tOWKe4oG10hKigRS9e3JP5CeR_8&usqp=CAU"
-              class="img-fluid"></span>Finland</div>
-        <div class="col-3"> <span class="shadow"><img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/1200px-Flag_of_Canada_%28Pantone%29.svg.png"
-              width="30px"
-              alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt-JS9JNpq-R38d9MFD2_Ugpdxsnd_lS6xTlGVFKp1tOWKe4oG10hKigRS9e3JP5CeR_8&usqp=CAU"
-              class="img-fluid"></span>Canada</div>
-        <div class="col-3"> <span class="shadow"><img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Flag_of_Ireland.svg/1200px-Flag_of_Ireland.svg.png"
-              width="30px"
-              alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt-JS9JNpq-R38d9MFD2_Ugpdxsnd_lS6xTlGVFKp1tOWKe4oG10hKigRS9e3JP5CeR_8&usqp=CAU"
-              class="img-fluid"></span>Rep. Ireland
-            </div>
-      </div>
-      <br>
-      <br>
-      <div class="row">
-        <div class="col-3"> <span class="shadow"><img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/1200px-Flag_of_Denmark.svg.png"
-              width="30px"
-              alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt-JS9JNpq-R38d9MFD2_Ugpdxsnd_lS6xTlGVFKp1tOWKe4oG10hKigRS9e3JP5CeR_8&usqp=CAU"
-              class="img-fluid"></span>Denmark</div>
-        <div class="col-3"> <span class="shadow"><img
-              src="https://cdn.britannica.com/42/3842-050-68EEE2C4/Flag-Russia.jpg"
-              width="30px"
-              alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt-JS9JNpq-R38d9MFD2_Ugpdxsnd_lS6xTlGVFKp1tOWKe4oG10hKigRS9e3JP5CeR_8&usqp=CAU"
-              class="img-fluid"></span>Russia</div>
-        <div class="col-3"> <span class="shadow"><img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/1200px-Flag_of_Norway.svg.png"
-              width="30px"
-              alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt-JS9JNpq-R38d9MFD2_Ugpdxsnd_lS6xTlGVFKp1tOWKe4oG10hKigRS9e3JP5CeR_8&usqp=CAU"
-              class="img-fluid"></span>Norway</div>
-        <div class="col-3">170+ other countries</div>
-        <br>
-      </div>
-      <br>
-      <button class="btn btn-warning btn-center">View all our Networks</button>
-    <button class="btn btn-warning align-center">Test your Network</button><br><br>
-    <br>
-    </div>
-    <br>
-  </div>
-<br>
-<br>
-
-
-  <!-- Country Grids End -->
-
-  <div class="container">
-    <h1 class="text-center" style="color: #044da1;">What Our Customers Have to Say</h1>
-    <p class="text-center" style="color: #044da1;">Have a look at some of our customers success stories:</p>
-    <div class="row">
-      <div class="col-4">
-        <div class="row">
-          <div class="col-5">
-            <div class="up"><img class="img-fluid" src="https://www.bulksms.com/images/G2-Easiest-Setup-2024.png"
-                alt=""></div>
-            <div class="down"><img class="img-fluid" src="https://www.bulksms.com/images/G2-Leader-2024.png" alt="">
-            </div>
-          </div>
-          <div class="col-7"><img class="img-fluid" src="./source/icons/img3.png" alt=""></div>
-        </div>
-        <button class="btn btn-warning text-light">Read our Reviews on G2</button>
-      </div>
-      <div class="col-8 justify-center">
-        <div class="row">
-          <div class="col-4"><img class="img-fluid filter"
-              src="https://www.bulksms.com/images/resources/case-study/home-fly-sa-fair.png" alt=""></div>
-          <div class="col-4"><img class="img-fluid filter"
-              src="https://www.bulksms.com/images/resources/case-study/home-cts-logo.png" alt=""></div>
-          <div class="col-4"><img class="img-fluid filter"
-              src="https://www.bulksms.com/images/resources/case-study/home-santa.png" alt=""></div>
-        </div>
-        <br>
-        <div class="row">
-          <div class="col-4"><img class="img-fluid filter"
-              src="https://www.bulksms.com/images/resources/case-study/home-bee.png" alt="">
-          </div>
-          <div class="col-4"><img class="img-fluid filter"
-              src="https://www.bulksms.com/images/resources/case-study/home-sme.png" alt="">
-          </div>
-          <div class="col-4"><img class="img-fluid filter"
-              src="https://www.bulksms.com/images/resources/case-study/home-q8.png" alt="">
-          </div>
-        </div>
-        <br>
-        <button class="btn btn-warning text-light">See our case studies</button>
-      </div>
-    </div>
-  </div>
-  <br>
-  <br>
-
-  <!-- Starting The Case studies Block -->
+  <!-- Section end -->
+  <!-- Section Start -->
   <div class="container-fluid justify-center text-center join">
     <div class="row">
       <div class="col-12">
@@ -358,14 +399,12 @@
         <button class="btn ">View our pricing</button>
       </div>
     </div>
-
   </div>
-<br>
-<br>
+  <!-- Footer Start -->
   <footer>
     <div class="container-fluid">
       <div class="row ">
-        <div class="col-3">
+        <div class="col-lg-3 col-md-6 col-sm-12">
           <p class="text-warning">Solutions & Pricing</p>
           <ul>
             <li><a href="#">SMS Pricing</a></li>
@@ -380,7 +419,7 @@
             <li><a href="#">RCS Business Messaging</a></li>
           </ul>
         </div>
-        <div class="col-3">
+        <div class="col-lg-3 col-md-6 col-sm-12">
           <p class="text-warning">About us</p>
           <ul>
             <li><a href="#">About BulkSMS.com</a></li>
@@ -394,7 +433,7 @@
 
           </ul>
         </div>
-        <div class="col-3">
+        <div class="col-lg-3 col-md-6 col-sm-12">
           <p class="text-warning">SMS Resources</p>
           <ul>
             <li><a href="#">Community SMS Messaging</a></li>
@@ -406,7 +445,7 @@
 
           </ul>
         </div>
-        <div class="col-3">
+        <div class="col-lg-3 col-md-6 col-sm-12">
           <p class="text-warning">INDUSTRY ASSOCIATIONS & SECURITY</p>
           <div class="row">
             <div class="col-6"><img class="img-fluid" src="https://www.bulksms.com/images/company/waspa-footer.png"
@@ -428,8 +467,8 @@
         </div>
       </div>
     </div>
-    <div class="container align-center">
-      <div class="row d-flex bg-light ">
+    <div class="container align-center mbl_link">
+      <div class="row d-flex bg-light  ">
         <div class="col-3">
           <p class="text-warning">SMS COVERAGE DIRECTORY</p>
         </div>
@@ -468,19 +507,18 @@
     <br>
     <div class="container">
       <div class="row">
-        <div class="col-5">
+        <div class="col-lg-5 col-md-12 col-sm-12">
           <p>© 2000 - 2025 Celerity Systems (Pty) Ltd. All Rights Reserved</p>
         </div>
-        <div class="col-5">Need support? Reach out at support@bulksms.com.</div>
-        <div class="col-2"><img class="img-fluid" src="https://www.bulksms.com/images/app-store-badge.svg" alt=""></div>
+        <div class="col-lg-5 col-md-12 col-sm-12">Need support? Reach out at support@bulksms.com.</div>
+        <div class="col-lg-2 col-md-12 col-sm-12"><img class="img-fluid"
+            src="https://www.bulksms.com/images/app-store-badge.svg" alt=""></div>
       </div>
     </div>
 
   </footer>
 
-
-
-
+  <!-- Script link -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>

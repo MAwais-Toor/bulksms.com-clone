@@ -1,15 +1,49 @@
 .header{
     background-color: #ff7900;
+}
+.country{
     align-content: center;
 }
-.hero-1{
+.call{
+    align-self: center;
+}
+.search_header{
+    align-content: center;
+}
+.search_header input{
+    border: none;
+    border-radius: 5px;
+    color: black;
+}
+.main_header{
+    justify-content: end;
+}
+.hero{
     background-color: #e9eff7;
     height: 500px;
     align-content: center;
-    padding-left: 150px;
+    justify-content: center;
+    align-items: center;
+}
+.welcome{
+    align-self: center;
+}
+.welcome, h1, p{
+    color: #445869;
+}
+.welcome h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.welcome p{
+    font-size: 24px;
+    font-weight: 500;
+}
+.account{
+    color: #ff7900;
 }
 .why-us{
-    background-color: #023f88;
+    background-color: #0275d8;
 }
 .join{
     background-image: url(https://www.bulksms.com/images/call-to-action111.png);
